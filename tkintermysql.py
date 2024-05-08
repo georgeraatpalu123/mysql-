@@ -3,7 +3,7 @@ import sqlite3
 
 def näita_andmed():
   
-    conn = sqlite3.connect('andmebaas.db')
+    conn = sqlite3.connect('graatpalu2')
     c = conn.cursor()
 
    
